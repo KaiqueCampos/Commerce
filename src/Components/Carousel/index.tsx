@@ -1,8 +1,13 @@
 import React from 'react';
-import { Container, Info, Products, NextIcon, PrevIcon } from './styles';
+import { Container, Info, Products } from './styles';
 import data from "../../data";
 
 const CarouselProducts: React.FC = () => {
+
+    // Filtro de buscas para genero
+    const arrayProducts = data.Products;
+    const evens = arrayProducts.filter(product => product.genre === "Unissex");
+
     return (
         <Container>
             <Info>
@@ -10,10 +15,10 @@ const CarouselProducts: React.FC = () => {
                 <a>Ver Mais</a>
             </Info>
 
-            <Products itemsToShow={3}
-            >
+
+            <Products itemsToShow={3}>
                 {
-                    data.Products.map(product =>
+                    evens.map(product =>
 
                         <div className="prod_container">
                             <div className="hidden-img">

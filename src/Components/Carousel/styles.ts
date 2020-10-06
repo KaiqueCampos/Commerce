@@ -136,9 +136,9 @@ export const Products = styled(Carousel)`
         transition: all 0.5s;
 
         :hover{
-            -moz-tranform: scale(1.1);
-            -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+            -moz-tranform: scale(1.05);
+            -webkit-transform: scale(1.05);
+            transform: scale(1.05);
         }
     }
 

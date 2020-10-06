@@ -3,7 +3,7 @@ import { Props } from "./chicago"
 
 export const Container = styled.div`  
   width: 90%;
-  height: 850px;
+  height: 900px;
 
   margin: 0 auto;
   margin-top: 50px;
@@ -26,7 +26,7 @@ export const BannerElements = styled.div<Props>`
 
   margin-left: 5%;
   margin-top: ${(Props) =>
-        Props.upInfo ? '3%' : '28%'};
+        Props.upInfo ? '3%' : '30%'};
 
   >div{
     height: 100%;

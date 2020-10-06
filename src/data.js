@@ -48,7 +48,7 @@ const data = {
     {
         image: './IMG/Carousel.jpg',
         name: 'Camiseta Nike',
-        genre: 'Feminino'
+        genre: ['Feminino']
     },
     {
         image: './IMG/Carousel.jpg',

@@ -1,0 +1,104 @@
+[
+    {
+        "prod_id": 1,
+        "prod_name": "Air jordan",
+        "prod_price": 4500,
+        "prod_genre": "Unissex"
+    },
+    {
+        "prod_id": 2,
+        "prod_name": "Air jordan",
+        "prod_price": 4500,
+        "prod_genre": "Unissex"
+    },
+    {
+        "prod_id": 3,
+        "prod_name": "Air jordan",
+        "prod_price": 4500,
+        "prod_genre": "Unissex"
+    },
+    {
+        "prod_id": 4,
+        "prod_name": "Air jordan",
+        "prod_price": 4500,
+        "prod_genre": "Unissex"
+    },
+    {
+        "prod_id": 5,
+        "prod_name": "Air jordan",
+        "prod_price": 4500,
+        "prod_genre": "Feminino"
+    },
+    {
+        "prod_id": 6,
+        "prod_name": "Air jordan",
+        "prod_price": 4500,
+        "prod_genre": "Feminino"
+    },
+    {
+        "prod_id": 7,
+        "prod_name": "Air jordan",
+        "prod_price": 4500,
+        "prod_genre": "Feminino"
+    },
+    {
+        "prod_id": 8,
+        "prod_name": "Air jordan",
+        "prod_price": 4500,
+        "prod_genre": "Feminino"
+    },
+    {
+        "prod_id": 9,
+        "prod_name": "Air jordan",
+        "prod_price": 4500,
+        "prod_genre": "Masculino"
+    },
+    {
+        "prod_id": 10,
+        "prod_name": "Air jordan",
+        "prod_price": 4500,
+        "prod_genre": "Masculino"
+    },
+    {
+        "prod_id": 11,
+        "prod_name": "Air jordan",
+        "prod_price": 4500,
+        "prod_genre": "Masculino"
+    },
+    {
+        "prod_id": 12,
+        "prod_name": "Air MAX",
+        "prod_price": 4500,
+        "prod_genre": "Masculino"
+    },
+    {
+        "prod_id": 13,
+        "prod_name": "Air MAX",
+        "prod_price": 4500,
+        "prod_genre": "Masculino"
+    },
+    {
+        "prod_id": 14,
+        "prod_name": "Air MAX",
+        "prod_price": 4500,
+        "prod_genre": "Masculino"
+    },
+    {
+        "prod_id": 15,
+        "prod_name": "Air MAX",
+        "prod_price": 4500,
+        "prod_genre": "Masculino"
+    },
+    {
+        "prod_id": 16,
+        "prod_name": "Air MAX",
+        "prod_price": 4500,
+        "prod_genre": "Masculino"
+    },
+    {
+        "prod_id": 17,
+        "prod_name": "Air MAX",
+        "prod_price": 4500,
+        "prod_genre": "Masculino"
+    }
+]

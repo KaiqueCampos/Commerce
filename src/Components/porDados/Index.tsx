@@ -11,10 +11,10 @@ export const Banner: React.FC = () => {
           <div className="contenent">
            <Products>
              {
-              data.Products.map(product =>
+              data.map(
                 <li>
                   <div className="product">
-                    <img src={product.image}></img>
+                    <img src={data.image}></img>
                   </div>
                 </li>)
               }

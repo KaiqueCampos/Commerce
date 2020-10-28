@@ -3,10 +3,9 @@ import { Container, Info, Products } from './styles';
 import data from "../../data";
 
 const CarouselMale: React.FC = () => {
-
     // Filtro de buscas para genero
-    const arrayProducts = data.Products;
-    const evens = arrayProducts.filter(product => product.genre === "Masculino");
+    const arrayProducts = data;
+    const evens = arrayProducts.filter(data.genre === "Masculino");
 
     return (
         <Container>
@@ -19,14 +18,14 @@ const CarouselMale: React.FC = () => {
             <Products itemsToShow={3}>
                 {
 
-                    evens.map(product =>
+                    evens.map(
 
                         <div className="prod_container">
                             <div className="hidden-img">
-                                <img src={product.image} className="img-slider" />
+                                <img src={data.image} className="img-slider" />
                             </div>
-                            <h1>{product.name}</h1>
-                            <p>{product.genre}</p>
+                            <h1>{data.name}</h1>
+                            <p>{data.genre}</p>
                         </div>
                     )
                 }
